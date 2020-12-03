@@ -1,0 +1,39 @@
+body {
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 300px;
+}
+.beer {
+  width: 450px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+  margin: 20px;
+}
+.beer__img {
+  flex: 1;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  border-right: 1px solid #ccc;
+  padding: 15px;
+  text-align: left;
+}
+.beer__details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  padding: 15px;
+}
