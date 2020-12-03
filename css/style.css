@@ -2,6 +2,7 @@ body {
   margin: 10px;
   font-family: "Montserrat", sans-serif;
 }
+
 .container {
   display: flex;
   flex: 1;
@@ -19,6 +20,7 @@ body {
   justify-content: space-around;
   padding: 30px;
   margin: 20px;
+  box-shadow: 5px 5px 5px 5px #ccc;
 }
 .beer__img {
   flex: 1;

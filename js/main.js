@@ -14,13 +14,10 @@ function callApi() {
               alt="beer"
                 width="100"
             />
+            <h2> ${beer.name}</h2>
             <h3>${beer.tagline}</h3>
-            
           </div>
           <div class="beer__details">
-            
-            <h3>Name: ${beer.name}</h3>
-            
             <p>${beer.description.substring(1, 50)}...</p>
             <p>First Brewed - ${beer.first_brewed}</p>
             <p>Brewer tips: ${beer.brewers_tips}</p>
